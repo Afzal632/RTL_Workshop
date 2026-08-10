@@ -1,0 +1,15 @@
+# Simulation outputs
+a.out
+*.vcd
+*.fst
+
+# Temporary synthesis outputs
+*.dot
+*.blif
+*.json
+*.log
+
+# Editor files
+*.swp
+*~
+.vscode/
