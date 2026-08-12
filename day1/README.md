@@ -106,7 +106,7 @@ A screenshot of the verified waveform is stored in:
 ```text
 images/good_mux_waveform.png
 ```
-
+![Good multiplexer waveform](images/good_mux_waveform.png)
 ## RTL Synthesis with Yosys
 
 Yosys was launched from the `verilog_files` directory:
@@ -143,7 +143,7 @@ The mapped circuit could then be viewed with:
 ```tcl
 show
 ```
-
+![Good multiplexer synthesized schematic](images/good_mux_synthesis.png)
 ## Gate-Level Netlist
 
 The synthesized netlist was written without Yosys metadata attributes:
