@@ -38,6 +38,16 @@ This repository contains the RTL files, testbenches, synthesized netlists, simul
   - Blocking-assignment ordering mismatch
   - RTL versus synthesized-netlist waveform comparison
 
+- [x] [Day 5 — Optimization in Synthesis](day5/README.md)
+
+  - Priority logic and inferred latches
+  - Complete, incomplete and overlapping case statements
+  - Partial assignments and output-specific latch inference
+  - RTL versus gate-level mismatch from duplicate case items
+  - Multiplexer and demultiplexer design using procedural loops
+  - Hardware replication using generate blocks
+  - 8-bit ripple-carry adder
+
 ## Tools Used
 
 * Icarus Verilog
