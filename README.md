@@ -30,6 +30,14 @@ This repository contains the RTL files, testbenches, synthesized netlists, simul
   * Unused counter-state optimization
   * SKY130 mapping of optimized designs
 
+- [x] [Day 4 — Gate-Level Simulation and Synthesis–Simulation Mismatch](day4/README.md)
+
+  - Gate-level simulation with SKY130 cell models
+  - Blocking and nonblocking assignment semantics
+  - Missing sensitivity-list mismatch
+  - Blocking-assignment ordering mismatch
+  - RTL versus synthesized-netlist waveform comparison
+
 ## Tools Used
 
 * Icarus Verilog
